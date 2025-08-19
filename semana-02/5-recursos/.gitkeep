@@ -1,0 +1,21 @@
+# Recursos - Semana 2: Middleware y Validación
+
+## Referencias y Recursos
+
+### 📚 Recursos disponibles:
+
+- `referencias.md` - Referencias técnicas y documentación
+- `ejemplos-codigo/` - Ejemplos de código
+- `herramientas.md` - Herramientas recomendadas
+- `troubleshooting.md` - Solución de problemas comunes
+
+### 🔗 Enlaces útiles:
+
+- Documentación oficial de Express.js middleware
+- Joi validation library
+- Helmet.js security
+- Morgan logging
+
+---
+
+_Recursos en desarrollo_

@@ -1,0 +1,20 @@
+# Práctica - Semana 2: Middleware y Validación
+
+## Tutoriales Prácticos
+
+### 🛠️ Prácticas programadas:
+
+- `01-middleware-setup.md` - Configuración de middleware
+- `02-validation-implementation.md` - Implementación de validación
+- `03-error-handling-setup.md` - Sistema de manejo de errores
+- `04-security-middleware.md` - Middleware de seguridad
+
+### 📁 Proyectos prácticos:
+
+- `middleware-examples/` - Ejemplos de middleware
+- `validation-demos/` - Demos de validación
+- `error-handling-project/` - Proyecto de manejo de errores
+
+---
+
+_Contenido práctico en desarrollo_

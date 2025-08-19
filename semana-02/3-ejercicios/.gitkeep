@@ -1,0 +1,21 @@
+# Ejercicios - Semana 2: Middleware y Validación
+
+## Ejercicios Propuestos
+
+### 🏋️ Lista de ejercicios:
+
+1. Implementar middleware de logging personalizado
+2. Crear sistema de validación completo
+3. Desarrollar middleware de rate limiting
+4. Configurar manejo de errores global
+
+### 📋 Archivos de ejercicios:
+
+- `instrucciones.md` - Instrucciones detalladas
+- `ejercicio-01-logging.md` - Middleware de logging
+- `ejercicio-02-validation.md` - Validación completa
+- `ejercicio-03-rate-limiting.md` - Rate limiting
+
+---
+
+_Ejercicios en desarrollo_
