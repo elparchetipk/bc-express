@@ -175,10 +175,10 @@ bc-express/
 │   │   └── 📄 01-conceptos-fundamentales.md
 │   ├── 📁 practica/                      # Tutoriales prácticos
 │   │   ├── 📄 01-environment-setup.md    # Setup entorno desarrollo
-│   │   ├── 📄 02-hello-world-api.md      # Primera API FastAPI
-│   │   ├── 📄 03-python-fundamentals.md  # Fundamentos Python
-│   │   ├── 📄 04-fastapi-basics.md       # Básicos FastAPI
-│   │   └── 📁 04-fastapi-basics/         # Proyecto práctico
+│   │   ├── 📄 02-hello-express-api.md    # Primera API Express.js
+│   │   ├── 📄 03-javascript-fundamentals.md  # Fundamentos JavaScript
+│   │   ├── 📄 04-express-basics.md       # Básicos Express.js
+│   │   └── 📁 04-express-basics/         # Proyecto práctico
 │   ├── 📁 ejercicios/                    # Ejercicios propuestos
 │   ├── 📁 proyecto/                      # Especificaciones proyecto
 │   └── 📁 recursos/                      # Referencias y diagramas
@@ -515,7 +515,7 @@ Para más detalles, ver `_docs/setup/git-github-strategy.md` y `CONTRIBUTING.md`
 
 #### 📋 Canales de Soporte (Orden de Prioridad)
 
-1. **GitHub Issues** (Principal): [Issues del Repositorio](https://github.com/elparchetipk/bc-fastapi/issues)
+1. **GitHub Issues** (Principal): [Issues del Repositorio](https://github.com/elparchetipk/bc-express/issues)
    - ✅ Siempre disponible
    - ✅ Historial permanente
    - ✅ Colaboración comunitaria

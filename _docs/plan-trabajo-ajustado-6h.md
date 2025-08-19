@@ -1,9 +1,9 @@
-# Plan de Trabajo Bootcamp FastAPI - Ajustado a 6H/Semana
+# Plan de Trabajo Bootcamp Express.js - Ajustado a 6H/Semana
 
 ## 🚨 **RESTRICCIONES FIJAS**
 
 - ⏰ **6 horas semanales exactas** (intocable)
-- 👥 **Aprendices con conocimiento básico de Python**
+- 👥 **Aprendices con conocimiento básico de JavaScript**
 - 🎯 **11 semanas totales = 66 horas**
 - ✅ **Expectativas realistas y alcanzables**
 
@@ -11,82 +11,286 @@
 
 ## 📅 **NUEVA DISTRIBUCIÓN SEMANAL**
 
-### **Semana 1: Introducción a FastAPI (6h)**
+### **Semana 1: Introducción a Express.js (6h total, 5.5h efectivas)**
 
-- ✅ Setup básico del entorno
-- ✅ Primera API Hello World
-- ✅ Documentación automática
-- ❌ _Eliminado: Python avanzado, Pydantic complejo_
+#### **🎯 Objetivos de Aprendizaje:**
 
-### **Semana 2: Python Moderno para APIs (6h)**
+- Configurar entorno de desarrollo Node.js profesional
+- Crear primera API funcional con Express.js
+- Comprender conceptos básicos de middleware y routing
+- Establecer workflow de desarrollo con pnpm
 
-- ✅ Type hints esenciales
-- ✅ Fundamentos Pydantic
-- ✅ Async/await básico
+#### **📋 Cronograma Detallado:**
+
+**⏰ Hora 1 (60min): Setup del Entorno**
+
+- **0-20min:** Instalación Node.js LTS + pnpm
+- **20-40min:** Configuración VS Code + extensiones esenciales
+- **40-60min:** Inicialización proyecto con pnpm init
+
+**☕ Break (15min)**
+
+**⏰ Hora 2 (60min): Primera API Express**
+
+- **0-15min:** Instalación Express.js con pnpm
+- **15-45min:** Hello World API básica
+- **45-60min:** Testing manual con Postman/curl
+
+**⏰ Hora 3 (60min): Middleware Básico**
+
+- **0-30min:** Concepto de middleware en Express
+- **30-60min:** Implementación middleware logger personalizado
+
+**☕ Break (15min)**
+
+**⏰ Hora 4 (60min): Routing Básico**
+
+- **0-30min:** Múltiples endpoints (GET, POST)
+- **30-60min:** Organización de rutas en archivos separados
+
+**⏰ Hora 5 (60min): Estructura del Proyecto**
+
+- **0-30min:** Estructura de carpetas profesional
+- **30-60min:** Scripts package.json y desarrollo workflow
+
+**⏰ Hora 6 (30min): Consolidación**
+
+- **0-15min:** Repaso conceptos clave
+- **15-30min:** Q&A y resolución de dudas
+
+#### **📂 Entregables:**
+
+```
+project-week1/
+├── package.json
+├── src/
+│   ├── app.js
+│   ├── middleware/
+│   │   └── logger.js
+│   └── routes/
+│       └── index.js
+└── README.md
+```
+
+#### **🔍 Evaluación:**
+
+- ✅ API funcional con 3 endpoints mínimo
+- ✅ Middleware personalizado implementado
+- ✅ Estructura de proyecto organizada
+- ✅ Documentación básica en README
+
+### **Semana 2: JavaScript Moderno para APIs (6h total, 5.5h efectivas)**
+
+#### **🎯 Objetivos de Aprendizaje:**
+
+- Dominar ES6+ features esenciales para desarrollo backend
+- Implementar manejo robusto de promesas y async/await
+- Establecer patrones de error handling profesionales
+- Configurar sistema de módulos moderno con ES modules
+
+#### **📋 Cronograma Detallado:**
+
+**⏰ Hora 1 (60min): ES6+ Fundamentals**
+
+- **0-20min:** Arrow functions y destructuring en contexto API
+- **20-40min:** Template literals y spread operator
+- **40-60min:** Const/let y scope en aplicaciones Node.js
+
+**☕ Break (15min)**
+
+**⏰ Hora 2 (60min): Promises y Async/Await**
+
+- **0-20min:** Repaso conceptual de Promises
+- **20-50min:** Implementación async/await en Express routes
+- **50-60min:** Comparativa callbacks vs promises vs async/await
+
+**⏰ Hora 3 (60min): Error Handling Avanzado**
+
+- **0-30min:** Try/catch con async/await
+- **30-45min:** Error middleware en Express
+- **45-60min:** Logging de errores profesional
+
+**☕ Break (15min)**
+
+**⏰ Hora 4 (60min): ES Modules y Organización**
+
+- **0-30min:** Import/export vs require/module.exports
+- **30-60min:** Configuración ES modules en Node.js + Express
+
+**⏰ Hora 5 (60min): Patrones Async en APIs**
+
+- **0-30min:** Manejo de múltiples requests asíncronos
+- **30-60min:** Promise.all() y Promise.allSettled() en APIs
+
+**⏰ Hora 6 (30min): Consolidación**
+
+- **0-15min:** Refactoring de código semana 1 con nuevos conceptos
+- **15-30min:** Q&A y resolución de dudas
+
+#### **📂 Entregables:**
+
+```
+project-week2/
+├── package.json (configurado con "type": "module")
+├── src/
+│   ├── app.js (con ES modules)
+│   ├── controllers/
+│   │   └── userController.js
+│   ├── middleware/
+│   │   ├── errorHandler.js
+│   │   └── logger.js
+│   ├── utils/
+│   │   └── asyncWrapper.js
+│   └── routes/
+│       └── userRoutes.js
+└── README.md
+```
+
+#### **🔍 Evaluación:**
+
+- ✅ API refactorizada con ES6+ features
+- ✅ Async/await implementado correctamente
+- ✅ Error handling centralizado funcionando
+- ✅ ES modules configurados y funcionando
+
+### **Semana 3: Express.js Intermedio + REST Foundations (6h)**
+
+- ✅ Múltiples rutas y métodos HTTP
+- ✅ Parámetros de ruta y query strings
+- ✅ Middleware personalizado y manejo de errores
+- ✅ **Introducción a HATEOAS** - Conceptos básicos REST
 - _Contenido movido de Semana 1_
 
-### **Semana 3: FastAPI Intermedio (6h)**
+### **Semana 4: Validación y Estructura + REST Design (6h)**
 
-- ✅ Múltiples endpoints HTTP
-- ✅ Parámetros y validación
-- ✅ Manejo de errores básico
-- _Contenido movido de Semana 1_
-
-### **Semana 4: Modelos y Validación (6h)**
-
-- ✅ Pydantic modelos avanzados
-- ✅ Validación de datos compleja
-- ✅ Response models
+- ✅ Validación con Joi o express-validator
+- ✅ Estructura de proyecto profesional
+- ✅ Controllers y Services básicos
+- ✅ **Richardson Maturity Model** - Niveles de REST
 - _Originalmente semana 2-3_
 
 ### **Semana 5: Base de Datos Básica (6h)**
 
-- ✅ SQLite + SQLAlchemy básico
+- ✅ SQLite + Prisma/TypeORM básico
 - ✅ Modelos de BD simples
 - ✅ Operaciones CRUD básicas
 - _Simplificado de semana 3 original_
 
-### **Semana 6: CRUD Completo (6h)**
+### **Semana 6: CRUD Completo con Express (6h)**
 
-- ✅ API completa con BD
-- ✅ Relaciones básicas
+- ✅ API REST completa con BD
+- ✅ Relaciones básicas entre tablas
 - ✅ Migraciones simples
 - _Contenido distribuido_
 
-### **Semana 7: Autenticación Básica (6h)**
+### **Semana 7: Autenticación con JWT (6h)**
 
-- ✅ JWT simple
-- ✅ Login/logout
-- ✅ Protección de endpoints
+- ✅ JSON Web Tokens con Express
+- ✅ Login/logout endpoints
+- ✅ Middleware de autenticación
 - _Simplificado de semana 5 original_
 
 ### **Semana 8: Testing y Calidad (6h)**
 
-- ✅ pytest básico
-- ✅ Testing de APIs
-- ✅ Documentación de código
+- ✅ Jest y Supertest para APIs
+- ✅ Testing de endpoints
+- ✅ JSDoc y documentación
 - _Ajustado de semana 6 original_
 
 ### **Semana 9: Containerización (6h)**
 
-- ✅ Docker básico
-- ✅ Dockerfile para FastAPI
-- ✅ Docker Compose simple
+- ✅ Docker básico para Node.js
+- ✅ Dockerfile para Express.js
+- ✅ Docker Compose con BD
 - _Movido y simplificado_
 
-### **Semana 10: Frontend Integration (6h)**
+### **Semana 10: Frontend Integration + HATEOAS Práctica (6h)**
 
-- ✅ CORS básico
-- ✅ Servir archivos estáticos
-- ✅ Integración simple con frontend
+- ✅ CORS y configuración
+- ✅ Servir archivos estáticos con Express
+- ✅ Integración con React + Vite
+- ✅ **Implementación práctica de HATEOAS**
 - _Simplificado de semana 8 original_
 
-### **Semana 11: Proyecto Final - Desarrollo y Presentación (6h)**
+### **Semana 11: Proyecto Final - API REST Completa (6h)**
 
 - ✅ Finalización del proyecto integrador
-- ✅ Aplicación completa de conceptos aprendidos
+- ✅ **Implementación completa de HATEOAS** en proyecto final
+- ✅ API REST nivel 3 (Richardson Maturity Model)
 - ✅ Presentaciones técnicas del proyecto
 - ✅ Evaluación final y cierre del bootcamp
+
+---
+
+## 🔗 **ENFOQUE HATEOAS EN EL BOOTCAMP**
+
+### **¿Por qué incluir HATEOAS?**
+
+- ✅ **REST verdadero** (Nivel 3 Richardson Maturity Model)
+- ✅ **Diferenciación profesional** en el mercado
+- ✅ **Comprensión profunda** de arquitecturas API
+- ✅ **Preparación para APIs enterprise**
+
+### **Progresión Pedagógica:**
+
+#### **Semana 3-4: Fundamentos Teóricos**
+
+```javascript
+// Mostrar diferencia entre HTTP API y REST API
+// Sin HATEOAS
+{
+  "id": 1,
+  "name": "Juan Pérez",
+  "status": "active"
+}
+
+// Con HATEOAS
+{
+  "id": 1,
+  "name": "Juan Pérez",
+  "status": "active",
+  "_links": {
+    "self": { "href": "/api/users/1" },
+    "edit": { "href": "/api/users/1", "method": "PUT" },
+    "orders": { "href": "/api/users/1/orders" }
+  }
+}
+```
+
+#### **Semana 10: Implementación Práctica**
+
+```javascript
+// Middleware HATEOAS para Express
+const addHateoas = (baseUrl) => (req, res, next) => {
+  const originalJson = res.json;
+
+  res.json = function (data) {
+    if (data && typeof data === 'object') {
+      data._links = {
+        self: { href: `${baseUrl}${req.originalUrl}` },
+      };
+    }
+    return originalJson.call(this, data);
+  };
+
+  next();
+};
+```
+
+#### **Semana 11: Proyecto Final**
+
+- **API REST completa** con HATEOAS
+- **Navegabilidad total** entre recursos
+- **Autodocumentación** de capacidades
+- **Ventaja competitiva** en portfolio
+
+### **Beneficios para Graduados:**
+
+1. **Conocimiento avanzado** que pocos desarrolladores poseen
+2. **Comprensión real** de arquitecturas REST
+3. **Preparación para APIs corporativas**
+4. **Base sólida** para microservicios
+5. **Diferenciación** en entrevistas técnicas
 
 ---
 
@@ -129,12 +333,12 @@
 
 ## 📋 **CRITERIOS DE ÉXITO AJUSTADOS**
 
-### **Al final del bootcamp (72h), los estudiantes:**
+### **Al final del bootcamp (66h), los estudiantes:**
 
-1. ✅ **Crean APIs REST funcionales** con FastAPI
-2. ✅ **Manejan bases de datos** básicas con SQLAlchemy
-3. ✅ **Implementan autenticación** simple
-4. ✅ **Aplican testing** básico
+1. ✅ **Crean APIs REST funcionales** con Express.js
+2. ✅ **Manejan bases de datos** básicas con Prisma/TypeORM
+3. ✅ **Implementan autenticación** JWT simple
+4. ✅ **Aplican testing** básico con Jest
 5. ✅ **Usan Docker** para deployment
 6. ✅ **Tienen un proyecto** portfolio-ready
 
