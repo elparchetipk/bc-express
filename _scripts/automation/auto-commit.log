@@ -43,3 +43,46 @@ Auto-committed by bc-express automation[0m
 [2025-08-19 17:25:01] [INFO] Changes detected, proceeding with auto-commit
 [2025-08-19 17:25:01] [INFO] Changes detected, proceeding with auto-commit
 [0;34mℹ️  Changes detected, proceeding with auto-commit[0m
+[main 1ebd65f] docs: update and add documentation
+ 15 files changed, 198 insertions(+)
+ create mode 100644 assets/README.md
+ create mode 100644 assets/banners/bootcamp-banner.png
+ create mode 100644 assets/banners/bootcamp-banner.svg
+ create mode 100644 assets/icons/docker-icon.png
+ create mode 100644 assets/icons/docker-icon.svg
+ create mode 100644 assets/icons/express-icon.png
+ create mode 100644 assets/icons/express-icon.svg
+ create mode 100644 assets/icons/nodejs-icon.png
+ create mode 100644 assets/icons/nodejs-icon.svg
+ create mode 100644 assets/icons/postgresql-icon.png
+ create mode 100644 assets/icons/postgresql-icon.svg
+ create mode 120000 assets/logo-bootcamp-express.png
+ create mode 100644 assets/logos/logo-bootcamp-express.png
+ rename assets/{ => logos}/logo-bootcamp-express.svg (100%)
+[2025-08-19 17:25:01] [SUCCESS] Auto-commit successful: docs: update and add documentation
+
+- Modified files: 1
+- Added files: 13
+
+Auto-committed by bc-express automation
+[2025-08-19 17:25:01] [SUCCESS] Auto-commit successful: docs: update and add documentation
+
+- Modified files: 1
+- Added files: 13
+
+Auto-committed by bc-express automation
+[0;32m✅ Auto-commit successful: docs: update and add documentation
+
+- Modified files: 1
+- Added files: 13
+
+Auto-committed by bc-express automation[0m
+[2025-08-19 17:25:01] [INFO] Auto-commit process completed
+[2025-08-19 17:25:01] [INFO] Auto-commit process completed
+[0;34mℹ️  Auto-commit process completed[0m
+[2025-08-19 17:30:00] [INFO] Starting auto-commit process for bc-express
+[2025-08-19 17:30:00] [INFO] Starting auto-commit process for bc-express
+[0;34mℹ️  Starting auto-commit process for bc-express[0m
+[2025-08-19 17:30:00] [INFO] Changes detected, proceeding with auto-commit
+[2025-08-19 17:30:00] [INFO] Changes detected, proceeding with auto-commit
+[0;34mℹ️  Changes detected, proceeding with auto-commit[0m
