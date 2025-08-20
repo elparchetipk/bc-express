@@ -2,7 +2,9 @@
 
 <div align="center">
   
-![Bootcamp Express.js Logo](./assets/logo-bootcamp-express.png)
+![Bootcamp Express.js Logo](assets/logo-bootcamp-express.png)
+
+**🚀 Bootcamp Intensivo de Desarrollo de APIs REST con Express.js**
 
 </div>
 
